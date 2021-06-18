@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleplayDeluxeOfDoomWPF", "RoleplayDeluxeOfDoomWPF\RoleplayDeluxeOfDoomWPF.csproj", "{B4627AA2-1B14-4009-BDE7-B5EB7A28459B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4627AA2-1B14-4009-BDE7-B5EB7A28459B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4627AA2-1B14-4009-BDE7-B5EB7A28459B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4627AA2-1B14-4009-BDE7-B5EB7A28459B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4627AA2-1B14-4009-BDE7-B5EB7A28459B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED2FBE31-5686-4737-8C3B-FF02E0F551D0}
+	EndGlobalSection
+EndGlobal

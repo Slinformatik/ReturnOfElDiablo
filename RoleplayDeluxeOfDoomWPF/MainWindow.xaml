@@ -1,0 +1,27 @@
+﻿<Window x:Class="RoleplayDeluxeOfDoomWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoleplayDeluxeOfDoomWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="BilderBursch.jpg"/>
+        </Grid.Background>
+        <Image Name="pb_Player" HorizontalAlignment="Left" Height="193" Margin="60,188,0,0" VerticalAlignment="Top" Width="162" Source="Bernd_Ritter.png"/>
+        <Image  Name="pb_Enemy" HorizontalAlignment="Left" Height="238" Margin="575,174,0,0" VerticalAlignment="Top" Width="220" Source="ElDiablo.png"/>
+        <ProgressBar Name ="pbar_Player" HorizontalAlignment="Left" Height="21" Margin="43,139,0,0" VerticalAlignment="Top" Width="151" Value="100"/>
+        <ProgressBar Name ="pbar_Enemy" HorizontalAlignment="Left" Height="21" Margin="554,139,0,0" VerticalAlignment="Top" Width="151" Value="100"/>
+        <TextBox x:Name="tb_Log" HorizontalAlignment="Left" Height="92" Margin="529,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBlock x:Name="tb_HealthPlayer" HorizontalAlignment="Left" Margin="43,139,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="151" TextAlignment="Center"/>
+        <TextBlock x:Name="tb_HealthEnemy" HorizontalAlignment="Left" Margin="554,139,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="21" Width="151" TextAlignment="Center"/>
+        <Button x:Name="btn_pl_Attack1" Content="Attacke 1" HorizontalAlignment="Left" Margin="43,26,0,0" VerticalAlignment="Top" Width="75" Click="btn_pl_Attack1_Click"/>
+        <Button x:Name="btn_pl_Attack2" Content="Attacke 2" HorizontalAlignment="Left" Margin="123,26,0,0" VerticalAlignment="Top" Width="75" Click="btn_pl_Attack2_Click"/>
+        <Button x:Name="btn_pl_Attack3" Content="Attacke 3" HorizontalAlignment="Left" Margin="43,67,0,0" VerticalAlignment="Top" Width="75" Click="btn_pl_Attack3_Click"/>
+        <Button x:Name="btn_pl_Attack4" Content="Attacke 4" HorizontalAlignment="Left" Margin="123,67,0,0" VerticalAlignment="Top" Width="75" Click="btn_pl_Attack4_Click"/>
+
+
+    </Grid>
+</Window>
