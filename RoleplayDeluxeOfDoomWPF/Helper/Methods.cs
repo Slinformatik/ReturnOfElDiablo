@@ -33,7 +33,7 @@ namespace RoleplayDeluxeOfDoomWPF.Helper
                 
             }
             else ShowTextInDramatic($"{player.Name} hat mit der Attacke {tempAttack.Name} nicht getroffen. {enemy.Name} bleibt unversehrt!",tb);
-
+            //
             Vibrations(player);
             if (player.Name == "John Johnson")
             {
